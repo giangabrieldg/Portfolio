@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #393E46;
+}
+
+.title-text{
+  letter-spacing: 0.5rem;
+}
+
+/* ---NAVBAR--- */
+.navbar {
+  background-color: #14171b;
+}
+
+.contact-button{
+  color: #00ADB5;
+  border-style: solid;
+  border-color: #00ADB5;
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+.contact-button:hover, .download-button:hover, .submit-button:hover{
+  background-color: #00ADB5;
+  color: #EEEEEE;
+}
+
+
+.navbar-brand img {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link, .navbar-brand, .offcanvas-title {
+  font-size: 18px;
+  color: #EEEEEE;
+}
+
+.nav-link:hover {
+  color: #00ADB5;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="%2300ADB5" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.offcanvas {
+  background-color: #14171b;
+}
+/* ---End of NAVBAR--- */
+
+/* ---HER0--- */
+.hero-section{
+  padding-top: 100px;
+}
+
+.col-hero {
+  padding-top: 70px;
+  
+}
+
+.col-hero img{
+  margin-top: 100px;
+  margin-bottom: 340px;
+  background-color: #00ADB5;
+  border-radius: 50%;
+}
+
+.hero-container {
+  margin-top: 200px;
+  text-align: left;
+}
+
+.heading-primary {
+  font-size: 50px;
+  font-weight: 700;
+  color: #00ADB5;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.hero-description {
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #EEEEEE;
+}
+
+.social-link a {
+  margin-top: 30px;
+  font-size: 24px;
+  display: inline-block;
+  color: #EEEEEE;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.social-link a:hover {
+  color: #00ADB5;
+}
+
+.download-button{
+  background-color: transparent;
+  margin-top: 20px;
+  border-style: solid;
+  color: #00ADB5;
+  border-color: #00ADB5;
+  border-width: 3px;
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: 0.3s background-color;
+}
+/* ---End of HERO--- */
+
+/* ---ABOUT--- */
+.about-section {
+  background-color: #222831;
+  min-height: 100vh;
+}
+
+.card {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #00ADB5;
+  border-radius: 30px;
+  background-color: #222831;
+  min-height: 65vh;
+}
+
+.card-text{
+  font-size: 17px;
+}
+
+.center-list {
+  list-style: none;
+  padding: 0; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.custom-icon-color, h5 {
+  color: #00ADB5;
+}
+/* ---End of ABOUT--- */
+
+/* ---PROJECTS--- */
+.project-name{
+
+  color: #00ADB5;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 70px
+}
+
+.project-description {
+  font-size: 20px;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+/* ---End of PROJECTS--- */
+
+/* ---CONTACT--- */
+.contact-section{
+  background-color: #222831;
+  min-height: 100vh;
+}
+
+.submit-button{
+
+  background-color: transparent;
+  margin-top: 20px;
+  border-style: solid;
+  color: #00ADB5;
+  border-color: #00ADB5;
+  border-width: 3px;
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: 0.3s background-color;
+}
+
+.form-label{
+  text-align: left;
+  display: block;
+}
+
+.form-control{
+  padding: 20px;
+  font-size: 18px;
+  height: auto;
+}
+/* ---End of CONTACT--- */
+
+/* ---FOOTER--- */
+.footer{
+  background-color: #14171b;
+}
+/* ---End of Footer--- */
+
+
+/* Media Queries*/
+@media (max-width: 768px) {
+
+  /* HERO media queries */
+  .hero-section {
+    padding-top: 50px;
+  }
+
+  .col-hero {
+    padding-top: 30px;
+  }
+
+  .col-hero img {
+    margin-top: 50px;
+    margin-bottom: 100px; 
+  }
+
+  .hero-container {
+    margin-top: 100px; 
+  }
+
+  .hero-container h1 {
+    font-size: 36px; 
+  }
+
+  .hero-container p {
+    font-size: 18px; 
+  }
+
+  /* ABOUT media queries */
+  .card {
+    min-height: auto; 
+  }
+  .about-section {
+    min-height: auto; 
+  }
+
+}
+
+
+
+
